@@ -2,7 +2,7 @@ import React from 'react';
 
 export default (props) =>
     <div>
-        <h1>Componente Família 02</h1>
+        <h2>Componente Família 02</h2>
         {React.cloneElement(props.children, { ...props })}
         {/* este segundo método somente funciona se o componente pai (no caso família02) 
             no index.js tiver somente um filho, O arquivo Familia03 mostra o procedimento
